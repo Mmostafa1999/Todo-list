@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "jsx": "react-jsx",
+    "baseUrl": "./src",  // Ensure the base URL is correctly pointing to src
+    "resolveJsonModule": true,
+    "lib": ["es6", "dom", "es2017"]
+  },
+  "include": [
+    "src/**/*"  // This pattern will include all files in src and its subdirectories
+  ],
+  "exclude": [
+    "node_modules",
+    "build"
+  ]
+}

@@ -1,0 +1,182 @@
+/* ==========================
+table of contents
+===========================
+1- Title
+2- sub-tasks section
+3- Add more BTN && delete BTN
+4- add new taskk and its animation 
+5- Colors for light theme 
+
+*/
+
+.edit-task {
+  min-height: calc((100vh - 133px));
+  margin: 2rem 0;
+}
+
+/* ==========================
+1- Title
+=========================== */
+.edit-task .title-input {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 11px;
+  outline: none;
+}
+.edit-task .fa-pen-to-square {
+  font-size: 18px;
+  transition: 0.2s;
+  margin-left: 15px;
+}
+
+.edit-task .fa-pen-to-square:hover {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* ==========================
+2- sub-tasks section
+=========================== */
+.edit-task section.sub-task {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.edit-task .parent-time {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.edit-task .time time,
+.edit-task .time {
+  font-size: 12px;
+  color: rgb(164, 213, 255);
+  letter-spacing: 1px;
+}
+
+.edit-task #checkbox {
+  accent-color: rgb(26, 156, 156);
+  width: 18px;
+  height: 18px;
+}
+
+.edit-task label {
+  font-size: 17px;
+  margin-left: 11px;
+  position: relative;
+  bottom: 3px;
+}
+
+.edit-task .card-task {
+  box-shadow: 0 5px 30px 0 rgba(0 0 0 / 15%);
+  background-color: rgb(65, 71, 84);
+  padding: 16px;
+  border-radius: 5px;
+  transition: 0.2s;
+  justify-content: space-between;
+  margin-bottom: 11px;
+}
+
+.edit-task .card-task:hover {
+  background-color: rgb(74, 82, 97);
+  border-left: 4px solid wheat;
+}
+
+/* ==========================
+3- Add more BTN && delete BTN
+=========================== */
+.edit-task .add-more-btn,
+.add-new-task button {
+  background-color: teal;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.edit-task .delete {
+  border-radius: 5px;
+  border: none;
+}
+
+/* ========================
+4- add new taskk and its animation 
+=========================== */
+.edit-task .add-new-task {
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 5px 30px 0 rgba(0 0 0 / 15%);
+  background-color: rgb(65, 71, 84);
+  border-radius: 5px;
+  animation: addnewtask 0.9s;
+}
+
+.edit-task .add-new-task input {
+  margin: 12px 0 12px 12px;
+}
+
+@keyframes addnewtask {
+  0% {
+    scale: 0;
+  }
+  40% {
+    scale: 1.3;
+  }
+  100% {
+    scale: 1;
+  }
+}
+/* ===========================
+5- Colors for light theme 
+=================================*/
+.Light .edit-task .title-input,
+.Light .fa-pen-to-square,
+.Light label,
+.Light .time,
+.Light .time time {
+  color: rgb(56, 71, 84);
+}
+
+/* ==================================
+responsive design
+================================== */
+
+@media only screen and (max-width: 600px) {
+  .edit-task {
+    width: min-content;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+  .edit-task section.sub-task {
+    margin-top: 1rem;
+  }
+  .edit-task .time {
+    letter-spacing: 0px;
+  }
+
+  .edit-task section.sub-task {
+    margin: 1rem 0;
+  }
+
+  .edit-task label {
+    margin-left: 2px;
+  }
+  .edit-task #checkbox {
+    width: 15px;
+    height: 15px;
+    margin-right: 2px;
+  }
+  .sub-task div.center {
+    margin-top: 2rem;
+    margin-bottom: 0;
+  }
+  button.delete {
+    margin-bottom: 2rem;
+  }
+}

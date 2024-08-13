@@ -1,0 +1,25 @@
+{
+  "name": "Todo list",
+  "short_name": "Todo-list",
+  "display": "standalone",
+  "orientation": "any",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "./download-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "./download-192.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "./download-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}
