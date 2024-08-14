@@ -1,5 +1,5 @@
 {
-  "name": "Todo list",
+  "name": "Todo-list",
   "short_name": "Todo-list",
   "display": "standalone",
   "orientation": "any",
@@ -21,5 +21,7 @@
       "type": "image/png",
       "sizes": "512x512"
     }
-  ]
+  ],
+  "theme_color": "#ffffff",
+  "background_color": "#ffffff"
 }
