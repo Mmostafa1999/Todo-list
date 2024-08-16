@@ -27,7 +27,15 @@ The Todo-list Application is a robust task management tool built with React.js a
    ```bash
    git clone https://github.com/Mmostafa1999/Todo-list.git
 
+2. Install dependencies:
+   ```bash
+   npm install
 
+3. Run the development server:
+   ```bash
+   npm start
+
+Feel free to contribute or report issues!
 ### `npm run build`
 
 Builds the app for production to the `build` folder.\
