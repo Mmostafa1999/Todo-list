@@ -44,10 +44,10 @@ Feel free to contribute or report issues!
 - Flexbox
 - Responsive design
 - [React](https://reactjs.org/) - JS library for building user interfaces.
-**Custom Hooks:** Utilized custom React hooks for managing state and logic efficiently.
-**React Helmet:** This reusable React component will manage all of your changes to the document head.
-**React i18next:** provides a straightforward way to manage translations, supporting multiple languages and namespaces
-**React Loading:** Easy to use loading animations for React projects.
+1. **Custom Hooks:** Utilized custom React hooks for managing state and logic efficiently.
+2. **React Helmet:** This reusable React component will manage all of your changes to the document head.
+3. **React i18next:** provides a straightforward way to manage translations, supporting multiple languages and namespaces
+4. **React Loading:** Easy to use loading animations for React projects.
 - [Firebase](https://firebase.google.com/))
 **Real-time Database:** Syncs data in real-time across all clients.
 **Authentication:** Simplifies user authentication with ready-made UI libraries and backend services.
