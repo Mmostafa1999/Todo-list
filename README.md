@@ -3,6 +3,7 @@
 The Todo-list Application is a robust task management tool built with React.js and integrated with Firebase for authentication and database services. This application ensures a secure and personalized experience, requiring users to sign in or sign up to access their tasks. It's designed to help users efficiently manage their daily responsibilities with a range of interactive features
 
 ## 🌟 [Live Website](https://todo-list-jet-five-39.vercel.app/) 🌟
+## 🌟 [Project Video Link](https://www.linkedin.com/posts/mahmoud-mustafa-642434188_webdevelopment-reactjs-firebase-activity-7230243636817367040-u8Su?utm_source=share&utm_medium=member_desktop) 🌟
 
 ## Table of Contents
 
