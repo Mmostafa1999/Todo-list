@@ -17,9 +17,9 @@ The Todo-list Application is a robust task management tool built with React.js a
 
 ![Signin Page](screenshots/Signup.png)
 
+![Home Page](screenshots/homepage.png)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Sub-task Page](screenshots/subtask.png)
 
 ### `npm test`
 
