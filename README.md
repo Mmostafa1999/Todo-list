@@ -1,15 +1,21 @@
-# Getting Started with Create React App
+# Todo-list Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Todo-list Application is a robust task management tool built with React.js and integrated with Firebase for authentication and database services. This application ensures a secure and personalized experience, requiring users to sign in or sign up to access their tasks. It's designed to help users efficiently manage their daily responsibilities with a range of interactive features
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+Create new tasks
+Mark tasks as completed
+Deleting tasks
+Updating your tasks
+Filter tasks by status (All, Completed, Non Completed)
+Change the order of tasks (Newest, oldest)
+Change themes: light dark
+Responsive Design
 
-### `npm start`
+## Screenshot
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
