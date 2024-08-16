@@ -4,11 +4,11 @@ The Todo-list Application is a robust task management tool built with React.js a
 
 ## Features
 
-Create new tasks
-Mark tasks as completed
-Deleting tasks
-Updating your tasks
-Filter tasks by status (All, Completed, Non Completed)
+* Create new tasks
+* Mark tasks as completed
+* Deleting tasks
+* Updating your tasks
+* Filter tasks by status (All, Completed, Non Completed)
 Change the order of tasks (Newest, oldest)
 Change themes: light dark
 Responsive Design
