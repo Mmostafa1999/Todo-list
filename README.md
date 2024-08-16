@@ -49,8 +49,8 @@ Feel free to contribute or report issues!
 3. **React i18next:** provides a straightforward way to manage translations, supporting multiple languages and namespaces
 4. **React Loading:** Easy to use loading animations for React projects.
 - [Firebase](https://firebase.google.com/))
-**Real-time Database:** Syncs data in real-time across all clients.
-**Authentication:** Simplifies user authentication with ready-made UI libraries and backend services.
-**Hosting:** Provides fast and secure hosting for web apps.
+1. **Real-time Database:** Syncs data in real-time across all clients.
+2. **Authentication:** Simplifies user authentication with ready-made UI libraries and backend services.
+3. **Hosting:** Provides fast and secure hosting for web apps.
 - [icons](https://fontawesome.com/icons) - Icons Library
   
